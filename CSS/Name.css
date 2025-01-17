@@ -1,0 +1,13 @@
+h1{
+    font-family: Leagur spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: teal;
+    text-transform: uppercase;
+}
