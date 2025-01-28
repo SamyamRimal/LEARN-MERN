@@ -1,0 +1,35 @@
+#outer{
+    border: 2px solid black;
+    height: 200px;
+    width: 70px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#red{
+    background-color: red;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#yellow{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#green{
+    background-color: green;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
