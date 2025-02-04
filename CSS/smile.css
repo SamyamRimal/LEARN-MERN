@@ -1,0 +1,41 @@
+.face{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 183, 0);
+    border-radius: 30%;
+    box-shadow: 8px 8px 10px black;
+    transition: 1s;
+}
+
+.dots{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    display: inline-block;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 70px;
+    display: inline-block;
+}
+.mouth{
+    width: 100px;
+    height: 35px;
+    background-color: brown;
+    border-radius: 0 0 30px 30px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.face:hover{
+    box-shadow: 16px 16px 20px black;
+    border-radius: 50%;
+}
