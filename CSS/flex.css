@@ -10,7 +10,7 @@
     align-items: center;
     background-color: white;
 }
-div{
+.box{
     text-align: center;
     width: 100px;
     height: 100px;
@@ -18,4 +18,22 @@ div{
     border: 2px solid black;
     border-radius: 10px;
     background-color: gray;
+}
+#navbar{
+    width: 900px;
+    height: 50px;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+.option{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 10px;
+    line-height: 50px;
 }
