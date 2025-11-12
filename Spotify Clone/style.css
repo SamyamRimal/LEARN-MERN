@@ -241,7 +241,6 @@ h2{
 .music{
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .music-name img{
   height: 56px;
@@ -250,6 +249,19 @@ h2{
   margin-left: 1rem;
   margin-top: 0.5rem;
   object-fit: cover;
+  display: block;
 }
+.m-img{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.m-img i{
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+
 
 
