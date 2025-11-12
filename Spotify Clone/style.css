@@ -27,6 +27,7 @@
   border-radius: 1rem;
   overflow: auto;
   margin-left: 0.5rem;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -162,6 +163,7 @@ a{
   align-items: center;
   background-color: #121212;
   padding-top: 1rem 0 1rem 0;
+  z-index: 1;
 }
 .sticky-nav-icons{
   background-color: #121212;
@@ -198,7 +200,56 @@ a{
 
 .card{
   background-color: #232323;
+  width: 170px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
 }
 h2{
   background-color: #121212;
 }
+.card p{
+  background-color: #232323;
+}
+
+.card-container{
+  display: flex;
+  background-color: #121212;
+  flex-wrap: wrap;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-weight: 500;
+}
+
+.card-info{
+  opacity: 0.75;
+  
+}
+
+.footer{
+  height: 300px;
+  background-color: #121212;
+}
+
+.music{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music-name img{
+  height: 56px;
+  width: 56px;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  object-fit: cover;
+}
+
+
