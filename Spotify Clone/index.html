@@ -130,13 +130,31 @@
             <div class="music">
                 <div class="music-name">
                     <div class="m-img"><img src="./assets/musicpic.JPG" alt="">
-                    <span>Samyam</span>
+                    <div class="text">
+                        <span>Tu Hai</span>
+                        <p>Samyam Rimal</p>
+                    </div>
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-regular fa-file"></i>
                     </div>
-                    <p>Samyam</p>
                 </div>
             </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="" class="player-control-icon" style="opacity: 1;height: 2rem;width: 2rem;" class="play">
+                    <img src="./assets/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" oninput="this.style.setProperty('--val', this.value + '%')">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls"></div>
         </div>
     
 </body>
