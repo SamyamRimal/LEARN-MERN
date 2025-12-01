@@ -21,5 +21,12 @@ console.log(a++); // first prints value then increases
 a+=5; // This means a=a+5; in shoet form. We can use (+,*,-,/,%).
 
 // Comparison Operator 
+a<b;
 a>b;
+a<=b;
+a>=b;
+a==b; // It only compairs value
+a!=b;
+a===b; // It compairs both value and type
 
+//Conditional Statements
