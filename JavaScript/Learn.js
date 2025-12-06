@@ -30,3 +30,47 @@ a!=b;
 a===b; // It compairs both value and type
 
 //Conditional Statements
+//if-else
+    if(b>=18){
+        console.log("You can Vote");
+    }
+    else{
+    console.log("You cant vote");
+    }
+
+// Practise Question (Traffice Light)
+
+let color = "green";
+if(color=="red"){
+    console.log("Stop");
+}
+if(color=="yellow"){
+    console.log("Be Ready");
+}
+if(color=="green"){
+    console.log("Go");
+}
+
+
+// Practice Question
+//Price of popcorn according to its size
+
+let size="XL";
+if(size=="XL"){
+    console.log{"Price is Rs.250"}
+}
+else if(size=="L"){
+    console.log{"Price is Rs.200"}
+}
+else if(size=="M"){
+    console.log{"Price is Rs.100"}
+}
+else if(size=="S"){
+    console.log{"Price is Rs.50"}
+}
+else{
+    console.log{"Choose the Size."}
+}
+
+
+
