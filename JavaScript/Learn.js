@@ -91,4 +91,16 @@ else{
 }
 
 
+// A good string is a string that starts with letter 'a' & has a length>3.
+//Write a Program to find if a string is good or not.
+
+let ali="alisha";
+
+if(ali[0]==='a' && ali.length>3){
+    console.log("Its a good String.");
+}
+else{
+    console.log("Its not a good string");
+}
+
 
