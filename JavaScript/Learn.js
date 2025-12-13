@@ -103,4 +103,33 @@ else{
     console.log("Its not a good string");
 }
 
+// Switch Case
+// Use switch statement to print the day of the week using a number variable 'day' with values 1 to 7
 
+let num =prompt("Enter Numbebetween 1-7");
+
+switch(num){
+    case "1":
+        console.log("Sunday");
+        break;
+    case "2":
+        console.log("Monday");
+        break;
+    case "3":
+        console.log("Tuesday");
+        break;
+    case "4":
+        console.log("Wednesday");
+        break;
+    case "5":
+        console.log("Thursday");
+        break;
+    case "6":
+        console.log("Friday");
+        break;
+    case "7":
+        console.log("Saturday");
+        break;
+    default :
+        alert("Enter Valid Number");
+}
