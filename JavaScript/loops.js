@@ -57,16 +57,34 @@
 
 //Guess my Favourite Car
 
-const fav = "BMW";
-let guess = prompt("Guess my fav car:");
+// const fav = "BMW";
+// let guess = prompt("Guess my fav car:");
 
-while((guess!=fav) && (guess!="quit")){
-    guess=prompt("Please try again:")
-}
+// while((guess!=fav) && (guess!="quit")){
+//     guess=prompt("Please try again:")
+// }
 
-if(guess==fav){
-    console.log("Correct");
-}
-else{
-    console.log("You Quited");
+// if(guess==fav){
+//     console.log("Correct");
+// }
+// else{
+//     console.log("You Quited");
+// }
+
+
+//Loops with Arrays
+let fruit = ["mango", "apple", "banana", "watermelon", "papaya"];
+
+// for(let i=0; i<fruit.length; i++){
+//     console.log((i+1)+" . "+fruit[i]);
+// }
+
+//Nested loop with Arrays
+let heros = [["sipderman", "Ironman", "Hulk"],["Superman", "Wonder Women", "Flash"]];
+
+for(let i=0; i<heros.length;i++){
+    console.log("List"+i);
+    for(let j=0; j<heros[i].length; j++){
+        console.log(heros[i][j]);
+    }
 }
