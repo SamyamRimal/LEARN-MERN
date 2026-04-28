@@ -28,10 +28,20 @@
 //     console.log("5 x "+i+" = " +m);
 // }
 
-//Multiplication of User Choice
-let n = prompt("Enter a number");
-console.log("Multiplication of "+n)
-for (let i=1; i<=10; i++){
-    let m=n*i;
-    console.log(n+" x "+i+" = "+m);
+// //Multiplication of User Choice
+// let n = prompt("Enter a number");
+// console.log("Multiplication of "+n)
+// for (let i=1; i<=10; i++){
+//     let m=n*i;
+//     console.log(n+" x "+i+" = "+m);
+// }
+
+
+
+// Nested Loop
+for(let i=1; i<=3; i++){
+    console.log("Outer Loop "+i);
+    for(let j=1; j<=3; j++){
+        console.log(j);
+    }
 }
