@@ -39,9 +39,31 @@
 
 
 // Nested Loop
-for(let i=1; i<=3; i++){
-    console.log("Outer Loop "+i);
-    for(let j=1; j<=3; j++){
-        console.log(j);
-    }
+// for(let i=1; i<=3; i++){
+//     console.log("Outer Loop "+i);
+//     for(let j=1; j<=3; j++){
+//         console.log(j);
+//     }
+// }
+
+//While Loop
+
+// let i = 1;
+// while(i<=5){
+//     console.log(i);
+//     i++;
+// }
+
+
+//Guess my Favourite Car
+
+const fav = "BMW";
+let guess = prompt("Guess my fav car:");
+while (guess==fav){
+    console.log("Correct!");
+    break;
+}
+while((guess!=fav) && (guess!="quit")){
+    console.log("Wrong");
+    guess=prompt("Please try again:")
 }
