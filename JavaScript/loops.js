@@ -59,11 +59,14 @@
 
 const fav = "BMW";
 let guess = prompt("Guess my fav car:");
-while (guess==fav){
-    console.log("Correct!");
-    break;
-}
+
 while((guess!=fav) && (guess!="quit")){
-    console.log("Wrong");
     guess=prompt("Please try again:")
+}
+
+if(guess==fav){
+    console.log("Correct");
+}
+else{
+    console.log("You Quited");
 }
