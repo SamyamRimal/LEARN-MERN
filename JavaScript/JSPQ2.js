@@ -15,22 +15,22 @@ let n1 = 3;
 let ans1 = arr1.slice(-n1);
 console.log(ans1);
 
-// Q3. Write a JS origtan ti check whether a string is blank or no.
+// // Q3. Write a JS origtan ti check whether a string is blank or no.
 
-// let str = prompt("Enter Your Name");
+// //let str = prompt("Enter Your Name");
 
-if(str == 0){
-    alert("Empty");
-}
-else{
+// //if(str == 0){
+// //    alert("Empty");
+// }
+// //else{
 
-    alert("Hi" +str);
-}
+// //    alert("Hi" +str);
+// }
 
 // Q4. Write a JS program to tes whether the chatacter at the given index is lower case.
 
 let str = "Samyam";
-let idx = 0;
+let idx = 3;
 
 if(str[idx] == str[idx].toLowerCase()){
     console.log("Lower Case");
