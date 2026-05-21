@@ -19,8 +19,14 @@ while(true){
         console.log("You guesses the correct number! which is", random);
         break;
     }
-    else{
-        guess = prompt("Incorrect Guess!, Try again");
+    else if(guess>random){
+        guess = prompt("Number is Smaller. Please Try again!");
     }
+    else if (guess<random){
+        guess = prompt("Number is Larger. Please Try again!");
+    }
+    // else{
+    //     guess = prompt("Incorrect Guess!, Try again");
+    // }
 }
 
