@@ -80,11 +80,40 @@ let fruit = ["mango", "apple", "banana", "watermelon", "papaya"];
 // }
 
 //Nested loop with Arrays
-let heros = [["sipderman", "Ironman", "Hulk"],["Superman", "Wonder Women", "Flash"]];
+// let heros = [["sipderman", "Ironman", "Hulk"],["Superman", "Wonder Women", "Flash"]];
 
-for(let i=0; i<heros.length;i++){
-    console.log("List"+i);
-    for(let j=0; j<heros[i].length; j++){
-        console.log(heros[i][j]);
+// for(let i=0; i<heros.length;i++){
+//     console.log("List"+i);
+//     for(let j=0; j<heros[i].length; j++){
+//         console.log(heros[i][j]);
+//     }
+// }
+
+
+// Simple To-DO List
+
+let todo = [];
+
+let inf = prompt("What do you want to do?")
+
+while(true){
+if(inf == "quit"){
+    console.log("You quited");
+    break;
+}
+
+else if(inf == "list"){
+    console.log("-----------------------");
+    for(let i=0; i<todo.length; i++){
+        console.log(i, todo[i]);
     }
+    console.log("-----------------------");
+
+}
+
+else if(inf == "add"){
+    let task = prompt("Add a new task");
+    todo.push(task);
+    console.log("Task Added");
+}
 }
